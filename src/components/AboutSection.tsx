@@ -11,7 +11,7 @@ export default function AboutSection() {
         </div>
 
         <div className="md:w-2/3">
-          <h3 className="text-2xl font-bold mb-4">Minha Jornada</h3>
+          <h3 className="text-2xl font-bold mb-4"> A Minha Jornada</h3>
           <p className="mb-4">
             Sou desenvolvedora Full Stack e estou a construir o meu caminho
             nesta área. Adoro ver como o código se transforma em algo real e
