@@ -1,20 +1,28 @@
 export default function Header() {
   return (
-    <header className="flex items-center justify-between p-4 bg-gray-800 text-white">
-      <h1 className="text-2xl font-bold"> Bianca.Dev </h1>
+    <header className="flex items-center justify-between p-4 bg-[#141625] text-white">
+      <h1 className="text-2xl font-bold">BIANCA.DEV</h1>
       <nav>
-        <ul className="flex space-x-4">
+        <ul className="flex space-x-6">
           <li>
-            <a href="#home">Projects </a>
+            <a href="#projetos" className="hover:text-[#7C5DFA]">
+              Projetos
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#sobre" className="hover:text-[#7C5DFA]">
+              Sobre
+            </a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#habilidades" className="hover:text-[#7C5DFA]">
+              Habilidades
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contato" className="hover:text-[#7C5DFA]">
+              Contato
+            </a>
           </li>
         </ul>
       </nav>
