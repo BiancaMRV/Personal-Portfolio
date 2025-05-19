@@ -9,7 +9,7 @@ export default function Introduction() {
         </h1>
         <h2 className="text-xl md:text-2xl mb-6">Desenvolvedora Full Stack</h2>
 
-        <p className="text-gray-600 dark:text-gray-300 mb-8">
+        <p className="text-gray-600 mb-8">
           Desenvolvedora full stack com foco em criar experiências digitais
           completas — do servidor ao utilizador.
         </p>
@@ -23,21 +23,27 @@ export default function Introduction() {
           </a>
           <a
             href="#contato"
-            className="border border-gray-300 text-gray-800 py-2 px-6 rounded-full hover:bg-gray-100 transition-all duration-300"
+            className="border border-gray-300 text-gray-800 py-2 px-6 rounded-full hover:transition-all duration-300"
           >
             Contato
           </a>
         </div>
       </div>
 
-      {/* Lado direito - Imagem/Ilustração */}
+      {/* Lado direito - Foto em círculo */}
       <div className="md:w-1/2 flex justify-center md:justify-end">
-        <div className="relative w-64 h-64 md:w-80 md:h-80">
-          <div className="bg-[#7C5DFA]/20 rounded-lg p-6">
-            <div className="bg-[#7C5DFA] rounded-full w-24 h-24 mx-auto mb-6"></div>
-            <div className="bg-gray-300 h-4 rounded-full w-2/3 mx-auto mb-4"></div>
-            <div className="bg-gray-300 h-4 rounded-full w-3/4 mx-auto mb-4"></div>
-            <div className="bg-gray-300 h-4 rounded-full w-1/2 mx-auto"></div>
+        <div className="relative">
+          {/* Círculo exterior decorativo */}
+          <div className="absolute inset-0 rounded-full bg-[#7C5DFA] blur-md opacity-30 transform scale-110"></div>
+
+          {/* Círculo interior com borda */}
+          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-[#7C5DFA] overflow-hidden shadow-xl">
+            {/* Imagem */}
+            <img
+              src="/public/images/foto.png"
+              alt="Bianca Vilaverde"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>
