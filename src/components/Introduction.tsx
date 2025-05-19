@@ -40,7 +40,7 @@ export default function Introduction() {
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-[#7C5DFA] overflow-hidden shadow-xl">
             {/* Imagem */}
             <img
-              src="/public/images/foto.png"
+              src="/images/foto.png"
               alt="Bianca Vilaverde"
               className="w-full h-full object-cover"
             />
