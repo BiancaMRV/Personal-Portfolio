@@ -10,8 +10,11 @@ export default function Introduction() {
         <h2 className="text-xl md:text-2xl mb-6">Desenvolvedora Full Stack</h2>
 
         <p className="text-gray-600 mb-8">
-          Desenvolvedora full stack com foco em criar experiências digitais
-          completas — do servidor ao utilizador.
+          "As a full-stack developer in constant growth, I strive to craft
+          intuitive digital journeys by mastering both the art of what users see
+          and the science of what powers it. Every line of code is part of my
+          learning path toward creating more seamless and impactful web
+          experiences."
         </p>
 
         <div className="flex space-x-4">
