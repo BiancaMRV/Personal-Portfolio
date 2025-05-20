@@ -1,8 +1,8 @@
 export default function ContactSection() {
   return (
-    <section id="contacto" className="bg-[#141625] text-white py-16">
+    <section id="Contacto" className="bg-[#141625] text-white py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8">contacto</h2>
+        <h2 className="text-3xl font-bold mb-8">Contacto</h2>
         <p className="mb-8">Vamos conversar!</p>
 
         <div className="flex flex-col md:flex-row justify-between">

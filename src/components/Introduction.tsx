@@ -22,10 +22,10 @@ export default function Introduction() {
             Ver Projetos
           </a>
           <a
-            href="#contacto"
+            href="#Contacto"
             className="border border-gray-300 text-gray-800 py-2 px-6 rounded-full hover:transition-all duration-300"
           >
-            contacto
+            Contacto
           </a>
         </div>
       </div>

@@ -20,8 +20,8 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="#contacto" className="hover:text-[#7C5DFA]">
-              contacto
+            <a href="#Contacto" className="hover:text-[#7C5DFA]">
+              Contacto
             </a>
           </li>
         </ul>
