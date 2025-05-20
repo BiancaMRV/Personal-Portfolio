@@ -5,58 +5,56 @@ export default function ProjectsSection() {
     {
       title: "Dashboard",
       description:
-        "Dashboard financeiro desenvolvido em React com visualização de dados, gráficos interativos e tema escuro",
+        "Financial dashboard developed in React with data visualization, interactive charts and dark theme",
       image: "/images/dashboard.png",
       tags: ["React", "ChartJS", "TailwindCSS"],
-      status: "concluido" as const,
+      status: "completed" as const,
       liveUrl: "https://financedashboard-ten.vercel.app/",
       githubUrl: "https://financedashboard-ten.vercel.app/",
     },
     {
       title: "TodoFlex App",
       description:
-        "Gestor de tarefas simples, primeira vez que utilizei Svelte, com funcionalidades de adicionar, editar e remover tarefas",
+        "Simple task manager, first time using Svelte, with functionalities to add, edit and remove tasks",
       image: "/image/todoflexApp.png",
       tags: ["Svelte", "TailwindCSS"],
-      status: "em_desenvolvimento" as const,
+      status: "in_development" as const,
       liveUrl: "https://todoflex-app-example.com",
       githubUrl: "https://github.com/username/todoflex-app",
     },
     {
       title: "JobFinder",
       description:
-        "O meu primeiro projeto full stack em React e Node, é um job search com funcionalidades de pesquisa, filtro e muito mais",
+        "My first full stack project in React and Node, it's a job search with search functionalities, filtering and much more",
       image: "/images/jobfinder.png",
       tags: [
         "React",
         "API",
-        "Responsividade",
+        "Responsiveness",
         "postgreSQL",
         "Docker",
         "Node.js",
       ],
-      status: "concluido" as const,
+      status: "completed" as const,
       liveUrl: "https://jobfinderfrontend-5lym.vercel.app/",
       githubUrl: "https://jobfinderfrontend-5lym.vercel.app/",
     },
     {
       title: "Blackboard",
       description:
-        "Plataforma de e-learning para a Universidade do Minho com todas as funcionalidades de um LMS, em desenvolvimento com colega",
+        "E-learning platform for University of Minho with all the functionalities of an LMS, in development with colleague",
       image: "/images/portfolio.png",
       tags: ["React-Router", "TailwindCSS", "Docker", "postgreSQL"],
-      status: "em_desenvolvimento" as const,
+      status: "in_development" as const,
       liveUrl: "https://meuportfolio.com",
       githubUrl: "https://meuportfolio.com",
     },
   ];
 
   return (
-    <section id="projetos" className="container mx-auto py-16 px-4">
-      <h2 className="text-3xl font-bold mb-2">Projetos</h2>
-      <p className="text-gray-600 mb-8">
-        Trabalhos recentes e em desenvolvimento
-      </p>
+    <section id="projects" className="container mx-auto py-16 px-4">
+      <h2 className="text-3xl font-bold mb-2">Projects</h2>
+      <p className="text-gray-600 mb-8">Recent and ongoing work</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (

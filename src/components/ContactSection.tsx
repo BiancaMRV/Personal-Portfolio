@@ -2,8 +2,8 @@ export default function ContactSection() {
   return (
     <section id="Contacto" className="bg-[#141625] text-white py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8">Contacto</h2>
-        <p className="mb-8">Vamos conversar!</p>
+        <h2 className="text-3xl font-bold mb-8">Contact</h2>
+        <p className="mb-8">Lets talk!</p>
 
         <div className="flex flex-col md:flex-row justify-between">
           <div className="mb-8 md:mb-0">
@@ -51,7 +51,7 @@ export default function ContactSection() {
           <div className="bg-[#1E2139] p-6 rounded-lg w-full md:w-1/2">
             <form>
               <div className="mb-4">
-                <label className="block mb-2">Nome</label>
+                <label className="block mb-2">Name</label>
                 <input
                   type="text"
                   className="w-full p-2 bg-[#252945] border border-[#252945] rounded focus:outline-none focus:border-[#7C5DFA]"
@@ -65,14 +65,14 @@ export default function ContactSection() {
                 />
               </div>
               <div className="mb-4">
-                <label className="block mb-2">Mensagem</label>
+                <label className="block mb-2">Message</label>
                 <textarea className="w-full p-2 bg-[#252945] border border-[#252945] rounded focus:outline-none focus:border-[#7C5DFA] h-32"></textarea>
               </div>
               <button
                 type="submit"
                 className="bg-[#7C5DFA] text-white py-2 px-6 rounded-full hover:bg-opacity-90 transition-all duration-300"
               >
-                Enviar
+                Send
               </button>
             </form>
           </div>

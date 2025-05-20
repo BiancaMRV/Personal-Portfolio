@@ -6,22 +6,22 @@ export default function Header() {
         <ul className="flex space-x-6">
           <li>
             <a href="#projetos" className="hover:text-[#7C5DFA]">
-              Projetos
+              Projects
             </a>
           </li>
           <li>
             <a href="#sobre" className="hover:text-[#7C5DFA]">
-              Sobre
+              About
             </a>
           </li>
           <li>
             <a href="#habilidades" className="hover:text-[#7C5DFA]">
-              Habilidades
+              Skills
             </a>
           </li>
           <li>
             <a href="#Contacto" className="hover:text-[#7C5DFA]">
-              Contacto
+              Contact
             </a>
           </li>
         </ul>

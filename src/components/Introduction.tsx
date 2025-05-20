@@ -3,18 +3,18 @@ export default function Introduction() {
     <section className="container mx-auto py-16 px-4 flex flex-col md:flex-row items-center">
       {/* Lado esquerdo - Texto */}
       <div className="md:w-1/2 mb-10 md:mb-0">
-        <p className="text-[#7C5DFA] font-medium mb-2">OLÁ, EU SOU</p>
+        <p className="text-[#7C5DFA] font-medium mb-2">Hello, I'm</p>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Bianca Vilaverde
         </h1>
-        <h2 className="text-xl md:text-2xl mb-6">Desenvolvedora Full Stack</h2>
+        <h2 className="text-xl md:text-2xl mb-6">Full stack developer</h2>
 
         <p className="text-gray-600 mb-8">
-          "As a full-stack developer in constant growth, I strive to craft
+          As a full-stack developer in constant growth, I strive to craft
           intuitive digital journeys by mastering both the art of what users see
           and the science of what powers it. Every line of code is part of my
           learning path toward creating more seamless and impactful web
-          experiences."
+          experiences.
         </p>
 
         <div className="flex space-x-4">
@@ -22,13 +22,13 @@ export default function Introduction() {
             href="#projetos"
             className="bg-[#7C5DFA] text-white py-2 px-6 rounded-full hover:bg-opacity-90 transition-all duration-300"
           >
-            Ver Projetos
+            Projects
           </a>
           <a
             href="#Contacto"
             className="border border-gray-300 text-gray-800 py-2 px-6 rounded-full hover:transition-all duration-300"
           >
-            Contacto
+            Contact
           </a>
         </div>
       </div>

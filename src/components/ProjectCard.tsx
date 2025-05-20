@@ -5,7 +5,7 @@ interface ProjectProps {
   description: string;
   image: string;
   tags: string[];
-  status: "concluido" | "em_desenvolvimento" | "planejado";
+  status: "completed" | "in_development" | "planed";
   liveUrl: string;
   githubUrl: string;
 }
@@ -54,16 +54,16 @@ export default function ProjectCard({
 
   // Determinar rótulo e cor do status
   const statusConfig = {
-    concluido: {
-      label: "Concluído",
+    completed: {
+      label: "Completed",
       className: "bg-green-600",
     },
-    em_desenvolvimento: {
-      label: "Em desenvolvimento",
+    in_development: {
+      label: "In development",
       className: "bg-yellow-600",
     },
-    planejado: {
-      label: "Planejado",
+    planed: {
+      label: "Planed",
       className: "bg-blue-600",
     },
   };
