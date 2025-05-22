@@ -47,12 +47,10 @@ export default function ProjectCard({
     };
   }, []);
 
-  // Função para lidar com cliques no card
   const handleCardClick = () => {
     window.open(liveUrl, "_blank");
   };
 
-  // Determinar rótulo e cor do status
   const statusConfig = {
     completed: {
       label: "Completed",
@@ -110,7 +108,7 @@ export default function ProjectCard({
           <a
             href={liveUrl}
             className="text-[#7C5DFA] hover:underline"
-            onClick={(e) => e.stopPropagation()} // Previne que o clique propague para o card
+            onClick={(e) => e.stopPropagation()} 
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -119,7 +117,7 @@ export default function ProjectCard({
           <a
             href={githubUrl}
             className="text-[#7C5DFA] hover:underline"
-            onClick={(e) => e.stopPropagation()} // Previne que o clique propague para o card
+            onClick={(e) => e.stopPropagation()} 
             target="_blank"
             rel="noopener noreferrer"
           >
