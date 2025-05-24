@@ -49,6 +49,16 @@ export default function ProjectsSection() {
       liveUrl: "https://meuportfolio.com",
       githubUrl: "https://meuportfolio.com",
     },
+    {
+      title: "MovieFlix",
+      description:
+        " MovieFlix is a movie recomendation website that allows users to search for movies, view details, and get recommendations based on their preferences.",
+      image: "/images/movieflix.png",
+      tags: ["React", "API", "Responsiveness", "postgreSQL", "Docker"],
+      status: "planned" as const,
+      liveUrl: "https://movieflix-example.com",
+      githubUrl: "https://movieflix-example.com",
+    },
   ];
 
   return (

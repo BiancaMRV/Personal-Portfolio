@@ -5,7 +5,7 @@ interface ProjectProps {
   description: string;
   image: string;
   tags: string[];
-  status: "completed" | "in_development" | "planed";
+  status: "completed" | "in_development" | "planned";
   liveUrl: string;
   githubUrl: string;
 }
@@ -60,8 +60,8 @@ export default function ProjectCard({
       label: "In development",
       className: "bg-yellow-600",
     },
-    planed: {
-      label: "Planed",
+    planned: {
+      label: "planned",
       className: "bg-blue-600",
     },
   };
@@ -108,7 +108,7 @@ export default function ProjectCard({
           <a
             href={liveUrl}
             className="text-[#7C5DFA] hover:underline"
-            onClick={(e) => e.stopPropagation()} 
+            onClick={(e) => e.stopPropagation()}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -117,7 +117,7 @@ export default function ProjectCard({
           <a
             href={githubUrl}
             className="text-[#7C5DFA] hover:underline"
-            onClick={(e) => e.stopPropagation()} 
+            onClick={(e) => e.stopPropagation()}
             target="_blank"
             rel="noopener noreferrer"
           >
